@@ -430,7 +430,7 @@ footer {
         position: static;
     }
     #portfolio img {
-        width: 210%;
+        width: 220%;
         height: auto;
         right: 0;
     }
@@ -595,6 +595,6 @@ footer {
         border: none;
     }
     footer {
-        width: 205% !important;
+        width: 220% !important;
     }
 }
