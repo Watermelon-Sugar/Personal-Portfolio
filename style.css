@@ -262,6 +262,10 @@ footer {
     font-weight: 400;
 }
 @media (min-width: 481px) and (max-width: 768px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
     main {
         padding-top: 0;
     }
@@ -278,18 +282,19 @@ footer {
     }
     .intro h5 {
         padding-top: 50px;
+        font-size: 20px;
     }
     .intro h1 {
         font-size: 40px;
         line-height: 43px;
     }
     .summary h3 {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 22px;
         font-weight: 300;
     }
     .summary p {
-        font-size: 12px;
+        font-size: 15px;
         line-height: 22px;
         font-weight: 300;
     }
@@ -302,17 +307,17 @@ footer {
         font-weight: bold;
     }
     .work h3 {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 22px;
         font-weight: 300;
     }
     .work h2 {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 22px;
         font-weight: 300;
     }
     .work p {
-        font-size: 12px;
+        font-size: 15px;
         line-height: 22px;
         font-weight: 300;
     }
@@ -328,18 +333,18 @@ footer {
         font-weight: bold;
     }
     .skills-container span {
-        font-size: 12px;
+        font-size: 15px;
         line-height: 23px;
         font-weight: 300;
     }
     .html {
-        padding-left: 180px;
+        padding-left: 165px;
     }
     .css {
-        padding-left: 185px;
+        padding-left: 175px;
     }
     .bootstrap {
-        padding-left: 145px;
+        padding-left: 115px;
     }
     .qualifications {
         padding-top: 50px;
@@ -350,17 +355,17 @@ footer {
         font-weight: bold;
     }
     .qualifications h3 {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 22px;
         font-weight: 300;
     }
     .qualifications h2 {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 22px;
         font-weight: 300;
     }
     .qualifications p {
-        font-size: 12px;
+        font-size: 15px;
         line-height: 22px;
         font-weight: 300;
     }    
@@ -420,6 +425,10 @@ footer {
         width: 87%;
     }
 @media (min-width: 320px) and (max-width: 480px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
     main {
         padding-top: 0;
     }
@@ -430,39 +439,37 @@ footer {
         position: static;
     }
     #portfolio img {
-        width: 250%;
+        width: 102%;
         height: auto;
         right: 0;
     }
+    main {        
+        margin-left: -100px;
+    }
     main .row {
-        width: 850px;
+        width: 650px;
     }
     .info-container {
         padding-top: 20px;
     }
     .intro h5 {
         padding-top: 50px;
-    }
-    .intro h5 {
-        padding-top: 50px;
+        font-size: 20px;
     }
     .intro h1 {
-        font-size: 40px;
+        font-size: 35px;
         line-height: 43px;
-        padding-right: 20px;
+        padding-right: 30px;
     }
     .summary h3 {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 22px;
         font-weight: 300;
     }
     .summary p {
-        font-size: 12px;
+        font-size: 18px;
         line-height: 22px;
         font-weight: 300;
-    }
-    .info-container {
-        padding-top: 20px;
     }
     .work h1 {
         font-size: 30px;
@@ -470,17 +477,17 @@ footer {
         font-weight: bold;
     }
     .work h3 {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 22px;
         font-weight: 300;
     }
     .work h2 {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 22px;
         font-weight: 300;
     }
     .work p {
-        font-size: 12px;
+        font-size: 18px;
         line-height: 22px;
         font-weight: 300;
     }
@@ -488,7 +495,7 @@ footer {
         padding-top: 20px;
     }
     .skills {
-        padding-right: 250px;
+        padding-right: 100px;
     }
     .skills-container h1 {
         font-size: 30px;
@@ -496,18 +503,18 @@ footer {
         font-weight: bold;
     }
     .skills-container span {
-        font-size: 12px;
+        font-size: 15px;
         line-height: 23px;
         font-weight: 300;
     }
     .html {
-        padding-left: 200px;
+        padding-left: 140px;
     }
     .css {
-        padding-left: 205px;
+        padding-left: 145px;
     }
     .bootstrap {
-        padding-left: 165px;
+        padding-left: 80px;
     }
     .qualifications {
         padding-top: 20px;
@@ -518,17 +525,17 @@ footer {
         font-weight: bold;
     }
     .qualifications h3 {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 22px;
         font-weight: 300;
     }
     .qualifications h2 {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 22px;
         font-weight: 300;
     }
     .qualifications p {
-        font-size: 12px;
+        font-size: 18px;
         line-height: 22px;
         font-weight: 300;
     }    
@@ -538,26 +545,25 @@ footer {
     .image-container-row {
         display: flex;
     }
-    .image-container .card {
-        margin-bottom: 40px;
-    }
     .image-container h1 {
         font-size: 30px;
         line-height: 40px;
         font-weight: bold;
     }
     .image-container img {
-        height: 120px;
+        height: 110px;
     }
     .image-container .card {
-        height: 120px;
-        width: 120px;
+        height: 110px;
+        width: 110px;        
+        margin-bottom: 20px;
+        margin-right: 20px;
     }
     .coninfo {
         display: grid;
     }
     .coninfo a {
-        font-size: 12px;
+        font-size: 15px;
         line-height: 22px;
         font-weight: 300;
     }
@@ -572,19 +578,16 @@ footer {
     }
     form .row {
         display: grid;
-        padding-right: 400px;
-    }
-    .form-group {
-        padding-right: 100px;
+        padding-right: 300px;
     }
     body > main > section > div.row > div.col-lg-8.col-md-10.col-sm-10 > div.skills-container > section:nth-child(6) > div > div.form-group > form > div.row > div:nth-child(1) {
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
     .form-control:valid {
-        font-size: small;
+        font-size: medium;
     }
     #email {
-        font-size: small;
+        font-size: medium;
     }
     .message button {
         height: 50px;
@@ -595,6 +598,6 @@ footer {
         border: none;
     }
     footer {
-        width: 250% !important;
+        width: 120% !important;
     }
 }
